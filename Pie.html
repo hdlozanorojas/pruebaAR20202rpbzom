@@ -19,7 +19,7 @@
 <div id="page">
     
     <div class="header header-fixed header-logo-left">
-        <a href="index.html" class="header-title">FoodEX</a>
+        <a href="index.html" class="header-title">FoodEX2</a>
         <a href="#" data-menu="menu-main" class="header-icon header-icon-1"><i class="fas fa-bars"></i></a>
         <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-dark"><i class="fas fa-sun"></i></a>
         <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-light"><i class="fas fa-moon"></i></a>
@@ -59,7 +59,7 @@
     >
     <a-assets>
         <a-asset-item
-            id="animated-asset2"
+            id="animated-asset"
             src="assets/asset2.gltf"
         ></a-asset-item>
     </a-assets>
@@ -68,7 +68,7 @@
         id="animated-marker"
         type="pattern"
         preset="custom"
-        url="assets/marker.patt"
+        url="assets/marker2.patt"
         raycaster="objects: .clickable"
         emitevents="true"
         cursor="fuse: false; rayOrigin: mouse;"
@@ -76,9 +76,9 @@
     >
         <a-entity
             id="bowser-model"
-            scale="0.0010700254626445154 0.0010700254626445154 0.0010700254626445154"
+            scale="0.06797547848091878 0.06797547848091878 0.06797547848091878"
             animation-mixer="loop: repeat"
-            gltf-model="#animated-asset2"
+            gltf-model="#animated-asset"
             class="clickable"
             gesture-handler
         ></a-entity>
